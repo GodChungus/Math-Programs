@@ -215,7 +215,7 @@ def calc():
             if input3d == 1:
                 plot3d((u * v, (u, -5, 5), (v, -5, 5))) # Plot the first function
             elif input3d == 2:
-                plot3d((u / v, (u, -5, 5), (v, -5, 5)))# Plot the second function
+                plot3d((u / v, (u, -5, 5), (v, -5, 5))) # Plot the second function
             elif input3d == 3:
                 plot3d_parametric_line((cos(u), sin(u), u, (u, -5, 5)),
                                        (sin(u), u ** 2, u, (u, -5, 5))) # Plot the third function
