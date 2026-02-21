@@ -133,7 +133,7 @@ def calc():
             elif trig_pick == 6:
 
                 plot(tan(x), (x, -10, 10), ylim=(-20, 20), xlabel="x", ylabel="y")
-                #Plot the tan(x) graph
+                # Plot the tan(x) graph
 
             else:
                 # Invalid input case
