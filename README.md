@@ -122,7 +122,7 @@ The program searches for perfect numbers below a user-defined upper limit.
 For every integer $n$, it calculates the sum of its proper divisors:
 
 $$
-S(n)=\sum_{\substack{d\mid n\\d<n}}d
+S(n)=\sum_{\substack{d\mid n,\ d<n}}d
 $$
 
 If:
